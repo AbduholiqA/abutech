@@ -586,10 +586,48 @@ img {
   opacity: 0.4;
 }
 
-.main {
+main {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.info-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.info-item {
+  width: 142px;
+}
+
+.info-number {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat-bold';
+  font-size: 48px;
+  line-height: 59px;
+  color: #00094A;
+  margin-bottom: 1px;
+}
+
+.info-desc {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #00094A;
 }
 
 .hero-container {
